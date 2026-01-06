@@ -6,10 +6,17 @@ const config: StorybookConfig = {
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
-    "@storybook/addon-webpack5-compiler-swc",
-    "@storybook/addon-essentials",
+    "@storybook/addon-actions",
+    "@storybook/addon-backgrounds",
+    "@storybook/addon-controls",
+    "@storybook/addon-docs",
+    "@storybook/addon-measure",
+    "@storybook/addon-outline",
+    "@storybook/addon-toolbars",
+    "@storybook/addon-viewport",
+    "@storybook/addon-interactions",
     "@storybook/addon-onboarding",
-    "@storybook/addon-interactions"
+    "@storybook/addon-webpack5-compiler-swc"
   ],
   "framework": {
     "name": "@storybook/react-webpack5",
